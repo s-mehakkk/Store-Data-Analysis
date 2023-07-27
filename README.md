@@ -44,5 +44,7 @@ This project provides valuable insights into the car store's inventory, customer
 ## How to Use
 To replicate the analysis, import the provided SQL database into your preferred SQL server or database management tool. Then, run the SQL queries provided in the analysis to obtain the insights mentioned above.
 
+Note: you can either use the store.sql file or run create_table.sql and insert_value.sql to set up the database.
+
 Feel free to customize the queries or extend the analysis based on specific business requirements.
 
