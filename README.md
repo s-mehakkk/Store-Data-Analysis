@@ -1,4 +1,4 @@
-# Store-Data-Analysis
+# Store-Data-Analysis | SQL
 Data analysis on a scale model car database
 
 This project involves analyzing data from a car store database using SQL to gain insights and make data-driven decisions. The database contains various tables, including product lines, products, order details, orders, customers, payments, employees, and offices, each with different relationships.
