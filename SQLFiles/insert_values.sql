@@ -3887,3 +3887,25 @@ INSERT INTO products VALUES('S700_3962','The Queen Mary','Ships','1:700','Welly 
 INSERT INTO products VALUES('S700_4002','American Airlines: MD-11S','Planes','1:700','Second Gear Diecast','Polished finish. Exact replia with official logos and insignias and retractable wheels',8820,36.270000000000003127,74.030000000000001137);
 INSERT INTO products VALUES('S72_1253','Boeing X-32A JSF','Planes','1:72','Motor City Art Classics','10 Wingspan with retractable landing gears.Comes with pilot',4857,32.770000000000003125,49.659999999999996588);
 INSERT INTO products VALUES('S72_3212','Pont Yacht','Ships','1:72','Unimax Art Galleries','Measures 38 inches Long x 33 3/4 inches High. Includes a stand.\r\nMany extras including rigging, long boats, pilot house, anchors, etc. Comes with 2 masts, all square-rigged',414,33.299999999999997158,54.600000000000001422);
+
+
+-- adding foreign keys
+ALTER TABLE customers
+ADD FOREIGN KEY (salesRepEmployeeNumber) REFERENCES employees (employeeNumber);
+
+ALTER TABLE employees
+ADD FOREIGN KEY (reportsTo) REFERENCES employees (employeeNumber),
+ADD  FOREIGN KEY (officeCode) REFERENCES offices (officeCode);
+
+ALTER TABLE orderdetails
+ADD FOREIGN KEY (orderNumber) REFERENCES orders (orderNumber),
+ADD  FOREIGN KEY (productCode) REFERENCES products (productCode);
+
+ALTER TABLE orders
+ADD FOREIGN KEY (customerNumber) REFERENCES customers (customerNumber);
+
+ALTER TABLE payments
+ADD FOREIGN KEY (customerNumber) REFERENCES customers (customerNumber);
+
+ALTER TABLE products
+ADD FOREIGN KEY (productLine) REFERENCES productlines (productLine);
