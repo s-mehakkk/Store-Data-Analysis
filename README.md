@@ -32,9 +32,9 @@ The database consists of the following tables and their relationships:
 - offices: Contains office data with a one-to-many relationship with the employees table.
 
 ## Analysis Results
-- Inventory Optimization: The analysis identified vintage cars and motorcycles as the top-performing products that should be restocked frequently.
+- Inventory Optimization: Determined top 10 performing products, contributing to 38% of total revenue. The analysis identified vintage cars and motorcycles as the top-performing products that should be restocked frequently.
 
-- Customer Behavior Analysis: The analysis revealed VIP customers and less-engaged customers, suggesting different marketing approaches to retain VIPs and attract new customers.
+- Customer Behavior Analysis: The analysis segmented the customer base into VIP and less-engaged customers, to facilitate the development of targeted marketing approaches to retain VIPs and attract new customers.
 
 - Budget Allocation for Customer Acquisition: The average Customer Lifetime Value is £39,040, helping determine the marketing budget for new customer acquisition.
 
