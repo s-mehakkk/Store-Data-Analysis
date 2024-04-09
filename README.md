@@ -1,6 +1,9 @@
 # Store-Data-Analysis | SQL
 Data analysis on a scale model car database
 
+<img src="https://github.com/s-mehakkk/Store-Data-Analysis/blob/main/Images/ProductLine.png" alt="Car Product Line " width="400" height="600">
+
+
 This project involves analyzing data from a car store database using SQL to gain insights and make data-driven decisions. The database contains various tables, including product lines, products, order details, orders, customers, payments, employees, and offices, each with different relationships.
 
 ## Objective
@@ -13,6 +16,9 @@ The main objectives of the analysis are as follows:
 - Budget Allocation for Customer Acquisition: Calculate the Customer Lifetime Value (LTV) to determine how much the company can spend on acquiring new customers.
 
 ## Data Schema
+
+<img src="https://github.com/s-mehakkk/Store-Data-Analysis/blob/main/Images/er-diagram.png" alt="ER Diagram " >
+
 The database consists of the following tables and their relationships:
 
 - productslines: Contains product category data with a one-to-many relationship with the products table.
